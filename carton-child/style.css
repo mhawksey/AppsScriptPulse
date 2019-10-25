@@ -1,0 +1,582 @@
+/* Theme Name: Carton Child 
+Theme URI: https://themes.bavotasan.com/themes/carton-pro-wordpress-theme/ 
+Template: carton 
+Author: Bandicoot Marketing 
+Author URI: http://bavotasan.com 
+Tags: two-columns,left-sidebar,buddypress,custom-background,custom-colors,custom-header,custom-menu,editor-style,featured-images,post-formats,sticky-post,theme-options,threaded-comments,translation-ready 
+Version: 1.0.7.1541451486 Updated: 2018-11-05 20:58:06 
+*/
+
+@font-face {
+	font-family: 'Genericons';
+	font-weight: normal;
+	font-style:  normal;
+
+	src: url('fonts/genericons/genericons-regular-webfont.eot');
+	src: url('fonts/genericons/genericons-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/genericons/genericons-regular-webfont.woff') format('woff'),
+	     url('fonts/genericons/genericons-regular-webfont.ttf') format('truetype'),
+	     url('fonts/genericons/genericons-regular-webfont.svg#genericonsregular') format('svg');
+}
+
+ .basic #site-title {
+     background-image: url(https://pulse.appsscript.info/files/2019/08/cropped-pulse-flat.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     height: 50px;
+}
+ .basic #site-title a {
+     display: none;
+}
+ .basic #site-description {
+     text-align: center;
+}
+ .saboxplugin-wrap:before {
+     content: "Contributed by";
+     display: -webkit-box;
+     font-size: 120%;
+     margin: 10px 0px 0px 10px;
+     font-weight: 600;
+}
+ .saboxplugin-wrap {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     box-sizing: border-box;
+     border: 1px solid #eee;
+     width: 100%;
+     clear: both;
+     display: block;
+     overflow: hidden;
+     word-wrap: break-word;
+     position: relative 
+}
+ .saboxplugin-wrap .saboxplugin-gravatar {
+     float: left;
+     padding: 20px 
+}
+ .saboxplugin-wrap .saboxplugin-gravatar img {
+     max-width: 70px;
+     height: auto 
+}
+ .saboxplugin-wrap .saboxplugin-authorname {
+     font-size: 18px;
+     line-height: 1;
+     margin: 20px 0 0 20px;
+     display: block 
+}
+ .saboxplugin-wrap .saboxplugin-authorname a {
+     text-decoration: none 
+}
+ .saboxplugin-wrap .saboxplugin-authorname a:focus {
+     outline: 0 
+}
+ .saboxplugin-wrap .saboxplugin-desc {
+     display: block;
+     margin: 5px 20px 
+}
+ .saboxplugin-wrap .saboxplugin-desc a {
+     text-decoration: underline 
+}
+ .saboxplugin-wrap .saboxplugin-desc p {
+     margin: 5px 0 12px 
+}
+ .saboxplugin-wrap .saboxplugin-web {
+     margin: 0 20px 15px;
+     text-align: left 
+}
+ .saboxplugin-wrap .sab-web-position {
+     text-align: right 
+}
+ .saboxplugin-wrap .saboxplugin-web a {
+     color: #ccc;
+     text-decoration: none 
+}
+ .saboxplugin-wrap .saboxplugin-socials {
+     position: relative;
+     display: block;
+     background: #fcfcfc;
+     padding: 5px;
+     border-top: 1px solid #eee 
+}
+ .saboxplugin-wrap .saboxplugin-socials a svg {
+     width: 20px;
+     height: 20px 
+}
+ .saboxplugin-wrap .saboxplugin-socials a svg .st2 {
+     fill: #fff 
+}
+ .saboxplugin-wrap .saboxplugin-socials a svg .st1 {
+     fill: rgba(0,0,0,.3) 
+}
+ .saboxplugin-wrap .saboxplugin-socials a:hover {
+     opacity: .8;
+     -webkit-transition: opacity .4s;
+     -moz-transition: opacity .4s;
+     -o-transition: opacity .4s;
+     transition: opacity .4s;
+     box-shadow: none!important;
+     -webkit-box-shadow: none!important 
+}
+ .saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color {
+     box-shadow: none;
+     padding: 0;
+     border: 0;
+     -webkit-transition: opacity .4s;
+     -moz-transition: opacity .4s;
+     -o-transition: opacity .4s;
+     transition: opacity .4s;
+     display: inline-block;
+     color: #fff;
+     font-size: 0;
+     text-decoration: inherit;
+     margin: 5px;
+     -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+     -ms-border-radius: 0;
+     -o-border-radius: 0;
+     border-radius: 0;
+     overflow: hidden 
+}
+ .saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey {
+     text-decoration: inherit;
+     box-shadow: none;
+     position: relative;
+     display: -moz-inline-stack;
+     display: inline-block;
+     vertical-align: middle;
+     zoom:1;
+    margin: 10px 5px;
+     color: #444 
+}
+ .clearfix:after,.clearfix:before {
+     content: ' ';
+     display: table;
+     line-height: 0;
+     clear: both 
+}
+ .ie7 .clearfix {
+     zoom:1
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitch {
+     border-color: #38245c 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-addthis {
+     border-color: #e91c00 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-behance {
+     border-color: #003eb0 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-delicious {
+     border-color: #06c 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-deviantart {
+     border-color: #036824 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-digg {
+     border-color: #00327c 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-dribbble {
+     border-color: #ba1655 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-facebook {
+     border-color: #1e2e4f 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-flickr {
+     border-color: #003576 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-github {
+     border-color: #264874 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-google {
+     border-color: #0b51c5 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-googleplus {
+     border-color: #96271a 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-html5 {
+     border-color: #902e13 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-instagram {
+     border-color: #1630aa 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-linkedin {
+     border-color: #00344f 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-pinterest {
+     border-color: #5b040e 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-reddit {
+     border-color: #992900 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-rss {
+     border-color: #a43b0a 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-sharethis {
+     border-color: #5d8420 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-skype {
+     border-color: #00658a 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-soundcloud {
+     border-color: #995200 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-spotify {
+     border-color: #0f612c 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stackoverflow {
+     border-color: #a95009 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-steam {
+     border-color: #006388 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-user_email {
+     border-color: #b84e05 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stumbleUpon {
+     border-color: #9b280e 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-tumblr {
+     border-color: #10151b 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitter {
+     border-color: #0967a0 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vimeo {
+     border-color: #0d7091 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-windows {
+     border-color: #003f71 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-wordpress {
+     border-color: #0f3647 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-yahoo {
+     border-color: #14002d 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-youtube {
+     border-color: #900 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-xing {
+     border-color: #000202 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mixcloud {
+     border-color: #2475a0 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vk {
+     border-color: #243549 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-medium {
+     border-color: #00452c 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-quora {
+     border-color: #420e00 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-meetup {
+     border-color: #9b181c 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-goodreads {
+     border-color: #000 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-snapchat {
+     border-color: #999700 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-500px {
+     border-color: #00557f 
+}
+ .saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mastodont {
+     border-color: #185886 
+}
+ .sabox-plus-item {
+     margin-bottom: 20px 
+}
+ @media screen and (max-width: 480px) {
+     .saboxplugin-wrap {
+         text-align:center 
+    }
+     .saboxplugin-wrap .saboxplugin-gravatar {
+         float: none;
+         padding: 20px 0;
+         text-align: center;
+         margin: 0 auto;
+         display: block 
+    }
+     .saboxplugin-wrap .saboxplugin-gravatar img {
+         float: none;
+         display: inline-block;
+         display: -moz-inline-stack;
+         vertical-align: middle;
+         zoom:1
+    }
+     .saboxplugin-wrap .saboxplugin-desc {
+         margin: 0 10px 20px;
+         text-align: center 
+    }
+     .saboxplugin-wrap .saboxplugin-authorname {
+         text-align: center;
+         margin: 10px 0 20px 
+    }
+}
+ body .saboxplugin-authorname a,body .saboxplugin-authorname a:hover {
+     box-shadow: none;
+     -webkit-box-shadow: none 
+}
+ a.sab-profile-edit {
+     font-size: 16px!important;
+     line-height: 1!important 
+}
+ .sab-edit-settings a,a.sab-profile-edit {
+     color: #0073aa!important;
+     box-shadow: none!important;
+     -webkit-box-shadow: none!important 
+}
+ .sab-edit-settings {
+     margin-right: 15px;
+     position: absolute;
+     right: 0;
+     z-index: 2;
+     bottom: 10px;
+     line-height: 20px 
+}
+ .sab-edit-settings i {
+     margin-left: 5px 
+}
+ .saboxplugin-socials {
+     line-height: 1!important 
+}
+ .rtl .saboxplugin-wrap .saboxplugin-gravatar {
+     float: right 
+}
+ .rtl .saboxplugin-wrap .saboxplugin-authorname {
+     display: flex;
+     align-items: center 
+}
+ .rtl .saboxplugin-wrap .saboxplugin-authorname .sab-profile-edit {
+     margin-right: 10px 
+}
+ .rtl .sab-edit-settings {
+     right: auto;
+     left: 0 
+}
+ .saboxplugin-wrap .saboxplugin-gravatar img {
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     border-radius: 50%;
+}
+ .saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color {
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     border-radius: 50%;
+}
+ .saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color .st1 {
+     display: none;
+}
+ .saboxplugin-wrap {
+     margin-top: 0px;
+     margin-bottom: 0px;
+     padding: 0px 0px 
+}
+ .saboxplugin-wrap .saboxplugin-authorname {
+     font-size: 18px;
+     line-height: 25px;
+}
+ .saboxplugin-wrap .saboxplugin-desc p, .saboxplugin-wrap .saboxplugin-desc {
+     font-size: 14px !important;
+     line-height: 21px !important;
+}
+ .saboxplugin-wrap .saboxplugin-web {
+     font-size: 14px;
+}
+ .saboxplugin-wrap .saboxplugin-socials a svg {
+     width: 36px;
+     height: 36px;
+}
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+ body.basic{
+     font-family: Roboto, sans-serif;
+     letter-spacing: normal;
+}
+ #secondary{
+     position:absolute;
+}
+#site-navigation ul {
+    font-size: 14px;
+    line-height: 0.9em;
+	padding-left: 16px;
+}
+#site-navigation ul li {
+	padding:0;
+}
+#site-navigation ul li:before { 
+    content: "";
+    border-color: transparent #aaa;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+ .basic #site-title a {
+     font-family: Lato, sans-serif;
+     color:#767676;
+     font-size:29px;
+     font-weight:400;
+}
+ .widget .widget-title{
+     font-weight:600 
+}
+ .basic article:nth-of-type(1),.basic article:nth-of-type(5),.basic article:nth-of-type(9) {
+     border-top-color: #4285F4;
+}
+ .basic article:nth-of-type(2),.basic article:nth-of-type(6),.basic article:nth-of-type(10) {
+     border-top-color: #EA4335;
+}
+ .basic article:nth-of-type(3),.basic article:nth-of-type(7) {
+     border-top-color: #34A853;
+}
+ .basic article:nth-of-type(4),.basic article:nth-of-type(8) {
+     border-top-color: #FBBC05;
+}
+ .entry-content .more-link, .entry-content .button, .entry-content #posts-pagination a, .entry-content input[type="submit"], .entry-content .comment-reply-link {
+     background: #4285F4;
+}
+ .entry-content .more-link:hover, .entry-content .button:hover, .entry-content #posts-pagination a:hover, .entry-content input[type="submit"]:hover, .entry-content .comment-reply-link:hover {
+     background: #0f8fce;
+}
+ .post-category a {
+     color: #fff !important;
+     background-color: #4285F4;
+     padding: 3px;
+}
+ .post-category a:hover{
+     background-color: #0f8fce;
+}
+ .basic .post-category{
+     color:#fff;
+}
+ header,#sidebar-one{
+     background-color:#fff;
+     -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+     padding: 20px;
+     float: left;
+     width: 100%;
+     text-shadow: none;
+}
+ .hwp-email-btn{
+     background-color:#4285F4;
+}
+ @media screen and (max-width: 600px){
+     #wpadminbar {
+         position: absolute;
+         top: -46px;
+    }
+}
+ @media (max-width: 768px){
+     #secondary {
+         left: -320px;
+    }
+     #secondary .header-wrap {
+         display: initial;
+    }
+}
+ p.copyright.c12 {
+     display: none;
+}
+ .left-menu-open {
+     left: 320px;
+}
+ .basic .entry-meta {
+     color: rgb(117, 117, 117);
+     cursor: auto;
+     display: inline;
+     font-family: Roboto, Arial, Helvetica, sans-serif;
+     font-size: 13.4444px;
+     font-style: normal;
+     font-weight: 300;
+     height: auto;
+     line-height: 24px;
+     overflow-wrap: break-word;
+     text-size-adjust: 100%;
+     width: auto;
+     -webkit-box-direction: normal;
+}
+ .entry-meta a {
+     text-decoration: none;
+     border-bottom: none;
+}
+#social-share {
+    list-style: none;
+    margin: 0;
+    display: inline-flex;
+	padding:0;
+}
+
+#social-share li a:before {
+    display: inline-block;
+    font-family: 'Genericons';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    content: '\f408';
+    padding: 0 3px
+}
+
+#social-share li a:hover:before,#social-share li a:focus:before {
+    opacity: .6
+}
+
+#social-share li {
+    display: inline-block;
+    padding: 0 4px
+}
+
+#social-share li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none
+}
+
+#social-share li a[href*="facebook.com"]:before {
+    content: '\f203';
+    color: #3b5998
+}
+
+#social-share li a[href*="linkedin.com"]:before {
+    content: '\f208';
+    color: #0e76a8
+}
+
+#social-share li a[href*="twitter.com"]:before {
+    content: '\f202';
+    color: #00acee
+}
+
+#social-share li a[href*="reddit.com"]:before {
+    content: '\f222';
+    color: #000
+}
+.tags {
+    display: inline-block;
+}
+.tags a {
+    background: rgba(255, 255, 255, 0);
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+twitter-widget {
+    margin: auto;
+}
