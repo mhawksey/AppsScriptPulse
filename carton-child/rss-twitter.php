@@ -27,12 +27,16 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
 <?php do_action('rss2_head'); ?>
 <?php while(have_posts()) : the_post(); ?>
 <?php 
+
+// extract tags that start '@' and include in title as source twitter screenname
 $t = wp_get_post_tags($post->ID, array( 'fields' => 'names' ));
 foreach( $t as $item ) {
     if( strpos($item, "@") === 0 ) {
         $author = ' by '.$item;
     }
 }
+
+// If there is a Twitter handle provided in the Simple Author Box use as the contributor
 $a = get_user_meta($post->post_author, 'sabox_social_links', true );
 $tw = $a['twitter'];
 if ($tw){

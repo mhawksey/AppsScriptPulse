@@ -14,6 +14,14 @@ add_action( 'wp_enqueue_scripts', 'ms_theme_editor_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
 
+// Redefing the Simple Author Box display logic
+function sabox_check_if_show(){
+	if ( ! is_page()){
+		return true;
+	}
+}
+add_filter( 'sabox_check_if_show', 'sabox_check_if_show', 99);
+
 // loading the script for the social share popup
 function my_scripts_method() {
 	wp_enqueue_script(

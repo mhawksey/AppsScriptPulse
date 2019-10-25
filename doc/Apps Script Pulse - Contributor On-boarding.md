@@ -93,9 +93,9 @@ If you would like to display a badge showing you are a contributor there are a c
 
 <table>
   <tr>
-    <td>![AppsScriptPulse Contributor Badge](https://pulse.appsscript.info/files/2019/10/pulsecontributor-flat.png) 
+    <td><img src="https://pulse.appsscript.info/files/2019/10/pulsecontributor-flat.png" alt="AppsScriptPulse Contributor Badge" /> 
 Source: https://pulse.appsscript.info/files/2019/10/pulsecontributor-flat.png </td>
-    <td>![AppsScriptPulse Contributor Icon](https://pulse.appsscript.info/files/2019/10/pulsecontributor-icon.png) 
+    <td><img alt="AppsScriptPulse Contributor Icon" src="https://pulse.appsscript.info/files/2019/10/pulsecontributor-icon.png" /> 
 Source: https://pulse.appsscript.info/files/2019/10/pulsecontributor-icon.png </td>
   </tr>
 </table>
